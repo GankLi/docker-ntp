@@ -3,7 +3,7 @@ version: '0.1'
 services:
   ntp:
     build: .
-    image: gank/ntp:latest
+    image: gank520/ntp:latest
     container_name: ntp
     restart: always
     ports:
